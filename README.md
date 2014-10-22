@@ -3,7 +3,7 @@ fcdb
 
 Implementation of in-memory collection storage with possibility of saving to file.
 
-[![Build Status](https://secure.travis-ci.org/titarenko/fcdb.png?branch=master)](https://travis-ci.org/titarenko/fcdb) [![Coverage Status](https://coveralls.io/repos/titarenko/fcdb/badge.png)](https://coveralls.io/r/titarenko/fcdb)
+[![Build Status](https://secure.travis-ci.org/titarenko/fcdb.png?branch=master)](https://travis-ci.org/titarenko/fcdb) [![Coverage Status](https://coveralls.io/repos/titarenko/fcdb/badge.png?branch=master)](https://coveralls.io/r/titarenko/fcdb?branch=master)
 
 [![NPM](https://nodei.co/npm/fcdb.png?downloads=true&stars=true)](https://nodei.co/npm/fcdb/)
 
