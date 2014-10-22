@@ -1,7 +1,7 @@
 fcdb
 ====
 
-Implementation of lite in-memory collection storage with possibility of file backup.
+Implementation of in-memory collection storage with possibility of saving to file.
 
 [![Build Status](https://secure.travis-ci.org/titarenko/fcdb.png?branch=master)](https://travis-ci.org/titarenko/fcdb) [![Coverage Status](https://coveralls.io/repos/titarenko/fcdb/badge.png)](https://coveralls.io/r/titarenko/fcdb)
 
