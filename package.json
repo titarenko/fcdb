@@ -1,0 +1,38 @@
+{
+  "name": "fcdb",
+  "version": "0.1.0",
+  "description": "File-backed collection in-memory storage.",
+  "main": "index.js",
+  "dependencies": {
+    "debug": "^2.1.0",
+    "lodash": "^2.4.1",
+    "q": "^1.0.1"
+  },
+  "devDependencies": {
+    "coveralls": "^2.11.2",
+    "istanbul": "^0.3.2",
+    "mocha": "^2.0.0",
+    "mock-fs": "^2.3.1",
+    "should": "^4.1.0"
+  },
+  "scripts": {
+    "test": "NODE_ENV=testing node ./node_modules/istanbul/lib/cli cover ./node_modules/mocha/bin/_mocha -- -R spec tests --recursive && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/titarenko/fcdb.git"
+  },
+  "keywords": [
+    "file",
+    "collection",
+    "database",
+    "storage",
+    "in-memory"
+  ],
+  "author": "Constantin Titarenko",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/titarenko/fcdb/issues"
+  },
+  "homepage": "https://github.com/titarenko/fcdb"
+}
