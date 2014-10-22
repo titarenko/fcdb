@@ -7,8 +7,8 @@ Implementation of lite in-memory collection storage with possibility of file bac
 
 [![NPM](https://nodei.co/npm/fcdb.png?downloads=true&stars=true)](https://nodei.co/npm/fcdb/)
 
-Usage
------
+Installation
+------------
 
 ```bash
 npm install fcdb --save
@@ -46,7 +46,7 @@ db.flush().then(function () {
 API
 ---
 
-# #ctor(options)
+# Db(options)
 
 Accepts object with 2 properties: `collections` and `file` which are list of collection names and path to backup file.
 Reads backup file and initializes in-memory store, or (if latter is impossible) initializes each collection as empty one.
